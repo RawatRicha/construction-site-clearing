@@ -1,6 +1,6 @@
 # construction-site-clearing
 
-More Details on: construction-site-clearing.pdf
+Details on the problem here: document/construction-site-clearing.pdf
 
 •	Design Pattern- I have used the Command Design Pattern to capture the transition of the Bulldozer.
 
