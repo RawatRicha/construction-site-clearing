@@ -1,6 +1,9 @@
 # construction-site-clearing
 
+
+
 •	Design Pattern- I have used the Command Design Pattern to capture the transition of the Bulldozer.
+
 •	Approach-
 The site map is stored in the form of a 2-D array and the boundary of the grid generated is indicated by array indices. 
 When this project starts, the site map is loaded from the input file- inputExample.txt. The data from this file is then processed by the SiteMapProcessor.java to generate the site information. 
