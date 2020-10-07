@@ -16,7 +16,7 @@ Additionally, possible violations and cost items are also checked. In the end, C
 
 
 
-•	Assumption: At the start of the application, the bulldozer is at location (0,0). This is important when traversing the path.
+•	Assumption: At the start of the application, the starting location of bulldozer is at (0,0, EAST). This is important when traversing the path.
 
 
 
