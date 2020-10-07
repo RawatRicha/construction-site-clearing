@@ -11,5 +11,11 @@ User inputs are parsed to generated commands in CommandParser.java and then thes
 Additionally, possible violations and cost items are also checked. In the end, CostCalulator.java calculates and displays the final cost in the form of a map.
 
 •	Assumption: At the start of the application, the bulldozer is at location (0,0).
+
+Requirements for the application: 
+•	Java 8
+•	Gradle
+
+Steps to follow to build and run the application:
 •	To build the application: gradlew clean build
 •	To run the application: gradlew run –args input/inputExample.txt
