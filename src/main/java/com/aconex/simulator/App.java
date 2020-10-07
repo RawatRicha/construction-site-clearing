@@ -21,7 +21,7 @@ public class App {
     public static void main(String[] args) {
 
         System.out.println("Welcome to the Aconex site clearing simulator. This is a map of the site:\n");
-        List<String> lines = new SiteMapReader().apply(args[0]);//to give input in zeroth location 
+        List<String> lines = new SiteMapReader().apply(args[0]);//to give input in the zeroth location 
         siteMap = new SiteMapProcessor().apply(lines);
         Bulldozer bulldozer = new Bulldozer(new Position(0 , 0, Direction.EAST)
         );
